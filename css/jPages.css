@@ -1,0 +1,35 @@
+.edd_holder {
+	margin: 15px 0;
+}
+
+.edd_holder a {
+	font-size: 12px;
+	cursor: pointer;
+	margin: 0 5px;
+	color: #333;
+}
+
+.edd_holder a:hover {
+	background-color: #222;
+	color: #fff;
+}
+
+.edd_holder a.jp-previous { margin-right: 15px; }
+.edd_holder a.jp-next { margin-left: 15px; }
+
+.edd_holder a.jp-current, a.jp-current:hover {
+	color: #FF4242;
+	font-weight: bold;
+}
+
+.edd_holder a.jp-disabled, a.jp-disabled:hover {
+	color: #bbb;
+}
+
+.edd_holder a.jp-current, a.jp-current:hover,
+.edd_holder a.jp-disabled, a.jp-disabled:hover {
+	cursor: default;
+	background: none;
+}
+
+.edd_holder span { margin: 0 5px; }
